@@ -17,4 +17,9 @@ export default class ApplicationController extends Controller {
             console.log(error)
         }  
     }
+
+    @action
+    async showAlert() {
+        alert('clicked')
+    }
 }
